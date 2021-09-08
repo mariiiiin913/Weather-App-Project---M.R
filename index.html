@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/79fa03d41f.js" crossorigin="anonymous"></script>
+    <link href="src/styles.css" />
+    <link href="src/index.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+<body>
+    <div class="container">
+   <div class="row">
+      <div class="col">
+          <div class="card bg-white mb-3 style="width: 10rem;">
+            <div class="card-body tokyo">
+                <form id="search-form">
+                    <div style="display: inline;">
+                          <input class="text" placeholder="Search your location..." id="input-city"/>
+                          <input class="btn btn btn-danger search" type="submit" value="Search 🔍" />
+                          <span> <input class="btn btn btn-outline-warning location" id="current-location-button" type="button" value=" 📍  " />
+                          </div>
+                   </form>
+              <h1 class="card-title" id=search-city>Tokyo</h1>
+              <h2 class="sunday"> Sunny </h2>
+              <h3 class="temperature"><span id="twenty-seven"> 27</span><a href="##" class="celsius"> ℃ </a>|<a href="##" class="fahrenheit">℉</a></h3>
+              <p><div class="detail-info"><span class="clock-icon">🕠</span><span id="currentTime"> 17:30</span><br /><span class="umbrella-icon">☂️</span> 25 %<br /><span class="leaf-icon">🍃</span><span id="wind"> 100</span> km/h<br /><span class="humidity-icon">💧</span><span id="humidity"> 35</span> ％</div></p>
+                <i class="fas fa-sun tokyo fa-5x"></i> 
+            </div>
+            <div class="card-header">
+               <strong><em> Next 5 days...</em></strong><br />
+              <a href="##" target="blank" class=next> See more details</a>
+              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group tuesday">
+                        <h4>Tuesday</h4>24℃ / 30℃<br/> <i class="fas fa-sun fa-3x"></i>
+                        </li> 
+                        <li class="list-group wednesday">
+                        <h4>Wednesday</h4>21℃ / 27℃<br/> <i class="fas fa-cloud-sun fa-3x"></i>
+                      </li>
+                      <li class="list-group thursday">
+                        <h4>Thursday</h4>19℃ / 25℃<br/><i class="fas fa-cloud-rain fa-3x"></i>
+                      </li>
+                      <li class="list-group friday">
+                        <h4>Friday</h4>21℃ / 28℃<br/><i class="fas fa-cloud-sun-rain fa-3x"></i>
+                      </li> 
+                      <li class="list-group saturday">
+                        <h4>Saturday</h4>23℃ / 29℃<br/><i class="fas fa-sun fa-3x"></i> 
+                    </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
