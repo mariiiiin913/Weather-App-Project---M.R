@@ -1,0 +1,182 @@
+body {
+  padding-top: 30px;
+  background-image: url("https://images.pexels.com/photos/2849133/pexels-photo-2849133.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+  margin-left: 250px;
+}
+h1.card-title {
+  padding: 80px 0 0 0px;
+  color: White;
+  font-size: 65px;
+  text-align: center;
+}
+h2.sunday {
+  position: relative;
+  top: 20px;
+  left: 210px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 45px;
+  color: rgb(252, 91, 27);
+}
+h3.temperature {
+  position: relative;
+  color: rgb(15, 14, 14);
+  left: 250px;
+  top: 45px;
+}
+input.text {
+  width: 280px;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: lightgrey;
+}
+input.btn {
+  padding: 9px 15px;
+  border-radius: 30px;
+}
+a.next {
+  text-align: right;
+}
+.fa-sun {
+  color: orange;
+  margin-top: 10px;
+}
+.fa-5x::before {
+  position: relative;
+  font-size: 140px;
+  left: 215px;
+  bottom: 121px;
+}
+.fa-cloud-sun {
+  color: lightsalmon;
+  margin-top: 10px;
+}
+.fa-cloud-rain {
+  color: rgb(89, 185, 218);
+  margin-top: 10px;
+}
+.fa-cloud-sun-rain {
+  color: lightblue;
+  margin-top: 10px;
+}
+.btn-danger.search {
+  background-color: rgb(30, 99, 145);
+  border-color: rgb(199, 205, 219);
+}
+.btn-outline-warning.location {
+  background-color: lightgray;
+  border-color: lightgrey;
+  border-radius: 50px;
+}
+.btn-outline-warning.location:hover {
+  background-color: #fff;
+}
+.card {
+  border-radius: 20px;
+}
+.card-img-top {
+  position: relative;
+  width: 200px;
+  left: 270px;
+  bottom: 180px;
+}
+.detail-info {
+  position: relative;
+  font-size: 20px;
+  top: 10px;
+}
+.btn-danger.search:hover {
+  background-color: rgb(154, 119, 253);
+}
+.clock-icon,
+.umbrella-icon,
+.leaf-icon,
+.humidity-icon {
+  font-size: 30px;
+  margin-right: 5px;
+}
+.celsius,
+.fahrenheit {
+  font-size: 27px;
+  text-decoration: none;
+}
+#change-to-celsius {
+  margin-right: 10px;
+}
+#change-to-fahrenheit {
+  margin-left: 10px;
+}
+#twenty-seven {
+  font-weight: bold;
+  font-size: 60px;
+}
+div.container {
+  width: 50%;
+  border-radius: 50px;
+}
+div.detail-info {
+  font-size: 15px;
+}
+div.card-body.tokyo {
+  border-radius: 20px;
+  background: linear-gradient(to top, #fff1eb 40%, #ace0f9 70%);
+}
+li.list-group.tuesday {
+  margin: 10px auto;
+  padding-top: 20px;
+}
+li.list-group.wednesday {
+  margin: 10px auto;
+}
+li.list-group.thursday {
+  margin: 10px auto;
+}
+li.list-group.friday {
+  margin: 10px auto;
+}
+li.list-group.saturday {
+  margin: 10px auto;
+}
+li.list-group.tuesday:hover {
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(236, 229, 255);
+  padding: 20px 130px 0px 130px;
+}
+li.list-group.wednesday:hover {
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(236, 229, 255);
+  padding: 0px 130px;
+}
+li.list-group.thursday:hover {
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(236, 229, 255);
+  padding: 0px 130px;
+}
+li.list-group.friday:hover {
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(236, 229, 255);
+  padding: 0px 130px;
+}
+li.list-group.saturday:hover {
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(236, 229, 255);
+  padding: 0px 130px;
+}
