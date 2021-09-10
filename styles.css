@@ -19,12 +19,12 @@ h1.card-title {
   text-align: center;
 }
 h2.sunday {
-  position: relative;
-  top: 20px;
-  left: 210px;
+  color: rgb(252, 91, 27);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 45px;
-  color: rgb(252, 91, 27);
+  line-height: 10px;
+  margin-top: 50px;
+  text-align: center;
 }
 h3.temperature {
   position: relative;
