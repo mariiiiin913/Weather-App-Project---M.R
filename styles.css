@@ -118,6 +118,17 @@ a.next {
   font-weight: bold;
   font-size: 60px;
 }
+#open-source-code {
+  color: yellow;
+  text-decoration: none;
+}
+#my-name {
+  color: #fff;
+}
+#reference {
+  padding-left: 350px;
+  padding-bottom: 50px;
+}
 div.container {
   width: 50%;
   border-radius: 50px;
